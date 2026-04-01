@@ -1,0 +1,20 @@
+{
+  "name": "ideabank-protected-routing-session-middleware",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Password-gated idea service with protected routing and cookie-based sessions.",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "ideabank",
+    "auth",
+    "middleware"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
